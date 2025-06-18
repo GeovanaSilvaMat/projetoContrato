@@ -1,0 +1,14 @@
+CRITICAL - 2025-06-10 03:45:39 --> ErrorException: Undefined variable $titulo
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtosIndex.php on line 6.
+ 1 APPPATH\Views\produtosIndex.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosIndex.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosIndex.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtosIndex', [], true)
+ 5 APPPATH\Controllers\Produtos.php(7): view('produtosIndex')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

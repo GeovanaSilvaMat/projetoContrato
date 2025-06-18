@@ -1,0 +1,42 @@
+CRITICAL - 2025-06-14 23:12:43 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: categorias]
+in APPPATH\Views\categorias.php on line 23.
+ 1 APPPATH\Views\categorias.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(11): view('categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-14 23:17:59 --> ErrorException: Attempt to read property "id" on array
+[Method: GET, Route: categorias]
+in APPPATH\Views\categorias.php on line 23.
+ 1 APPPATH\Views\categorias.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(11): view('categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-14 23:22:00 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: categorias]
+in APPPATH\Views\categorias.php on line 23.
+ 1 APPPATH\Views\categorias.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(11): view('categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,1220 @@
+CRITICAL - 2025-06-15 01:26:28 --> ErrorException: Undefined variable $categoria
+[Method: GET, Route: categorias]
+in APPPATH\Views\categorias.php on line 25.
+ 1 APPPATH\Views\categorias.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categoria', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\categorias.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('categorias', [], true)
+ 5 APPPATH\Controllers\Categorias.php(11): view('categorias', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 04:20:00 --> ErrorException: Undefined variable $errors
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtosForm.php on line 12.
+ 1 APPPATH\Views\produtosForm.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtosForm', [], true)
+ 5 APPPATH\Controllers\Produtos.php(42): view('produtosForm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 04:20:02 --> ErrorException: Undefined variable $errors
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtosForm.php on line 12.
+ 1 APPPATH\Views\produtosForm.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtosForm', [], true)
+ 5 APPPATH\Controllers\Produtos.php(42): view('produtosForm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 04:20:40 --> ErrorException: Undefined variable $errors
+[Method: GET, Route: produtos]
+in APPPATH\Views\produtosForm.php on line 12.
+ 1 APPPATH\Views\produtosForm.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errors', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\produtosForm.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('produtosForm', [], true)
+ 5 APPPATH\Controllers\Produtos.php(42): view('produtosForm', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:10:01 --> mysqli_sql_exception: Table 'projetocontrato.pessoajuridica' doesn't exist in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\projetoContrato\app\Models\PessoaJuridicaModel.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(23): App\Models\PessoaJuridicaModel->get_all_fornecedores()
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->novo()
+#9 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#10 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2025-06-15 21:10:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'projetocontrato.pessoajuridica' doesn't exist
+[Method: GET, Route: contrato/novo]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = :categoria:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\PessoaJuridicaModel.php(19): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Contrato.php(23): App\Models\PessoaJuridicaModel->get_all_fornecedores()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->novo()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:10:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'projetocontrato.pessoajuridica' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = \'FORNECEDOR\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = \'FORNECEDOR\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = :categoria:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\PessoaJuridicaModel.php(19): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Contrato.php(23): App\Models\PessoaJuridicaModel->get_all_fornecedores()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->novo()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:10:01 --> [Caused by] mysqli_sql_exception: Table 'projetocontrato.pessoajuridica' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = \'FORNECEDOR\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = \'FORNECEDOR\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = \'FORNECEDOR\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pessoajuridica`
+WHERE `categoria` = :categoria:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\PessoaJuridicaModel.php(19): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Contrato.php(23): App\Models\PessoaJuridicaModel->get_all_fornecedores()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->novo()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:14:06 --> mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\projetoContrato\app\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Categorias->index()
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#9 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-15 21:14:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+[Method: GET, Route: categorias]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:14:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:14:06 --> [Caused by] mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `categoria`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:16:24 --> mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\projetoContrato\app\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Categorias->index()
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#9 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-15 21:16:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+[Method: GET, Route: categorias]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:16:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:16:24 --> [Caused by] mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `categoria`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Categorias.php(8): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Categorias->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:22:53 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 21:22:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/buscar_cliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:22:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:22:53 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:25:36 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 21:25:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/buscar_cliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:25:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:25:36 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:26:12 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 21:26:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/buscar_cliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:26:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:26:12 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:34:52 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 21:34:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/buscar_cliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:34:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:34:52 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 21:35:03 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 21:35:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/buscar_cliente]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:35:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:35:03 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'1\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(33): App\Models\RepresentanteModel->get_by_empresa('1', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->buscar_cliente()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:49:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: contrato/gerar_pdf]
+in APPPATH\Views\contratoPdf.php on line 6.
+ 1 APPPATH\Views\contratoPdf.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\contratoPdf.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\contratoPdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contratoPDF', [], true)
+ 5 APPPATH\Controllers\Contrato.php(52): view('contratoPDF', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 21:52:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: contrato/gerar_pdf]
+in APPPATH\Views\contratoPdf.php on line 5.
+ 1 APPPATH\Views\contratoPdf.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\contratoPdf.php', 5)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\projetoContrato\\app\\Views\\contratoPdf.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('contratoPDF', [], true)
+ 5 APPPATH\Controllers\Contrato.php(52): view('contratoPDF', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 22:01:53 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 22:01:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/gerar_pdf]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:01:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:01:53 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 22:27:54 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 22:27:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/gerar_pdf]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:27:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:27:54 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` `r`
+JOIN `pessoajuridica_has_representante` `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 22:29:59 --> mysqli_sql_exception: Unknown table 'contratoforn.r' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 22:29:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'contratoforn.r'
+[Method: POST, Route: contrato/gerar_pdf]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:29:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'contratoforn.r'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:29:59 --> [Caused by] mysqli_sql_exception: Unknown table 'contratoforn.r'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante`
+JOIN `pessoajuridica_has_representante` ON `representante`.`id` = `pessoajuridica_has_representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 22:33:50 --> mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 22:33:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+[Method: POST, Route: contrato/gerar_pdf]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:33:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:33:50 --> [Caused by] mysqli_sql_exception: Unknown column 'pr.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = \'\'
+AND `pr`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` as `pr` ON `r`.`id` = `pr`.`representante_id`
+WHERE `pr`.`pessoajuridica_id` = :pr.pessoajuridica_id:
+AND `pr`.`categoria` = :pr.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 22:35:06 --> mysqli_sql_exception: Unknown column 'pessoajuridica_has_representante.categoria' in 'where clause' in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*\nFR...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*\nFR...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*\nFR...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\app\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\app\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+#6 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-06-15 22:35:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pessoajuridica_has_representante.categoria' in 'where clause'
+[Method: POST, Route: contrato/gerar_pdf]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 2 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:35:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pessoajuridica_has_representante.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 4 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 22:35:06 --> [Caused by] mysqli_sql_exception: Unknown column 'pessoajuridica_has_representante.categoria' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = \'\'
+AND `pessoajuridica_has_representante`.`categoria` = \'CLIENTE\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `r`.*
+FROM `representante` as `r`
+JOIN `pessoajuridica_has_representante` ON `r`.`id` = `pessoajuridica_has_representante`.`representante_id`
+WHERE `pessoajuridica_has_representante`.`pessoajuridica_id` = :pessoajuridica_has_representante.pessoajuridica_id:
+AND `pessoajuridica_has_representante`.`categoria` = :pessoajuridica_has_representante.categoria:', [...], false)
+ 5 APPPATH\Models\RepresentanteModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Contrato.php(47): App\Models\RepresentanteModel->get_by_empresa('', 'CLIENTE')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contrato->gerar_pdf()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contrato))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-15 23:30:54 --> mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist in C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\projetoContrato\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\projetoContrato\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\projetoContrato\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\projetoContrato\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\projetoContrato\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\projetoContrato\app\Controllers\Produtos.php(37): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+#8 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+#9 C:\xampp\htdocs\projetoContrato\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\projetoContrato\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\projetoContrato\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\projetoContrato\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-06-15 23:30:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+[Method: GET, Route: produtos]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Produtos.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 23:30:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Produtos.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-15 23:30:54 --> [Caused by] mysqli_sql_exception: Table 'contratoforn.categoria' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `categoria`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `categoria`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `categoria`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `categoria`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Produtos.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Produtos->inserir()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produtos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

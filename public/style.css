@@ -1,0 +1,50 @@
+body {
+  background-color: #2a4b36;
+  color: white;
+  font-family: sans-serif;
+  margin: 40px;
+}
+
+form {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #355c3e;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.linha {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+label {
+  flex: 1 1 100%;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+input, select, button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a7c4a3;
+  color: #000;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #78c257;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
