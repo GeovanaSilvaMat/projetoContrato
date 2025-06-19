@@ -1,50 +1,98 @@
 body {
-  background-color: #2a4b36;
-  color: white;
-  font-family: sans-serif;
-  margin: 40px;
+    background-color: #1f3b24;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-form {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  background-color: #355c3e;
-  border-radius: 10px;
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #2d4b32;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00000033;
 }
 
-h2 {
-  text-align: center;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-
-.linha {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
+h2, h4, h5 {
+    color: #e0e0e0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #88aa88;
+    padding-bottom: 5px;
 }
 
 label {
-  flex: 1 1 100%;
-  margin-top: 10px;
-  font-size: 0.9em;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
 }
 
-input, select, button {
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  background-color: #a7c4a3;
-  color: #000;
-  width: 100%;
-  box-sizing: border-box;
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+p.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #88aa88;
+    border-radius: 5px;
 }
 
-button[type="submit"] {
-  background-color: #78c257;
-  margin-top: 20px;
-  font-weight: bold;
-  cursor: pointer;
+input::placeholder {
+    color: #666666;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #aaffaa;
+    background-color: #f3f3f3;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #7ab77a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #5ea35e;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #bb4444;
+}
+
+.btn-danger:hover {
+    background-color: #992222;
+}
+
+.btn-buscar {
+    background-color: #6baa6b;
+}
+
+.card {
+    background-color: #2d4b32;
+    border: none;
+}
+
+.card-header {
+    border-bottom: 1px solid #88aa88;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-footer {
+    text-align: right;
 }

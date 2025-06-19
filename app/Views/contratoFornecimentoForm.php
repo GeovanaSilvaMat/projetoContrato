@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Detalhes do Contratante</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?= base_url('style.css') ?>">
+
 </head>
 <body>
   <div class="container mt-5 mb-5">
@@ -13,7 +15,7 @@
           <a href="<?= base_url('contratante') ?>" class="btn btn-danger float-end">Voltar</a>
         </h4>
       </div>
-      <form action="<?= base_url('contratante/update'); ?>" method="post">
+      <form action="<?= base_url('contratante/edit'); ?>" method="post">
         <div class="card-body">
           <input type="hidden" name="id" value="<?= esc($contratante->id ?? '') ?>">
           <div class="mb-3">
