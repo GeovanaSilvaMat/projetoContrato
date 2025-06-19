@@ -14,7 +14,7 @@ class ContratanteModel extends Model {
      * @param string $cnpj O CNPJ do cliente a ser buscado.
      * @return array|object|null Retorna os dados do cliente ou null se não encontrar.
      */
-    public function findByCnpj(string $cnpj): ?array
+    public function findByCnpj($cnpj): ?object
     {
         $sanitizedCnpj = preg_replace('/[^0-9]/', '', $cnpj);
         return $this->where('cnpj', $sanitizedCnpj)->first();
@@ -24,7 +24,7 @@ class ContratanteModel extends Model {
      * Busca os dados completos do contratante e seu representante.
      * Esta é a query chave para preencher o formulário.
      */
-    public function getDadosCompletos(int $id): ?array
+    public function getDadosCompletos(int $id): ?object
     {
         // Usamos o Query Builder para criar um JOIN
         return $this->select('

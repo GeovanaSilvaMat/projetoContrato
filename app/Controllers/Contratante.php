@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Controllers;
+
 use App\Models\ContratanteModel;
 use App\Models\FaturamentoModel;
 use App\Models\RepresentanteModel;
@@ -11,7 +12,8 @@ class Contratante extends BaseController
     private $representante;
     private $faturamento;
 
-    public function __construct(){
+    public function __construct()
+    {
         $this->contratante = new ContratanteModel();
         $this->representante = new RepresentanteModel();
         $this->faturamento = new FaturamentoModel();
@@ -22,9 +24,9 @@ class Contratante extends BaseController
     {
         $data['title'] = 'contratante';
         $data['contratante'] = $this->contratante
-            ->select('contratante.*, representante.nome AS representante_nome, representante.email AS representante_email, faturamento.prazo AS prazo_faturamento, faturamento.vencimento AS vencimento_faturamento')
-            ->join('representante', 'representante.id = contratante.representante_id')
-            ->join('faturamento', 'faturamento.id = contratante.faturamento_id')
+            ->select('contratante.*, representante.nome AS representante_nome, faturamento.prazo AS prazo_faturamento')
+            ->join('representante', 'representante.id = contratante.representante_id', 'left')
+            ->join('faturamento', 'faturamento.id = contratante.faturamento_id', 'left')
             ->findAll();
 
         return view('contratoMain', $data);
@@ -38,16 +40,17 @@ class Contratante extends BaseController
         $data['representante'] = $this->representante->findAll();
         $data['faturamento'] = $this->faturamento->findAll();
         $data['contratante'] = (object) [
-            'cnpj'=> '',
-            'razaosocial'=> '',
-            'logradouro'=> '',
-            'cidade'=> '',
-            'estado'=> '',
-            'email'=> '',
-            'representante_id'=> '',
-            'faturamento_id'=> '',
-            'id'=> ''
+            'cnpj' => '',
+            'razaosocial' => '',
+            'logradouro' => '',
+            'cidade' => '',
+            'estado' => '',
+            'email' => '',
+            'representante_id' => '',
+            'faturamento_id' => '',
+            'id' => ''
         ];
+
         return view('contratoFornecimentoForm', $data);
     }
 
@@ -65,6 +68,7 @@ class Contratante extends BaseController
     public function update()
     {
         $id = $this->request->getPost('id');
+
         $dataForm = [
             'cnpj' => $this->request->getPost('cnpj'),
             'razaosocial' => $this->request->getPost('razaosocial'),
@@ -77,25 +81,17 @@ class Contratante extends BaseController
         ];
 
         $this->contratante->update($id, $dataForm);
-        $data['msg'] = msg('Alterado com Sucesso!', 'success');
 
-        $data['title'] = 'contratante';
-        $data['contratante'] = $this->contratante
-            ->select('contratante.*, representante.nome AS representante_nome, representante.email AS representante_email, faturamento.prazo AS prazo_faturamento, faturamento.vencimento AS vencimento_faturamento')
-            ->join('representante', 'representante.id = contratante.representante_id')
-            ->join('faturamento', 'faturamento.id = contratante.faturamento_id')
-            ->findAll();
-
-        return view('contratoMain', $data);
+        return redirect()->to('contratante')->with('msg', msg('Alterado com sucesso!', 'success'));
     }
 
     public function search()
     {
-        $cnpj = $this->request->getPost('pesquisar');
+        $cnpj = $this->request->getPost('cnpj');
         $contratante = $this->contratante->findByCnpj($cnpj);
 
         if (!$contratante) {
-            return redirect()->to('contrato')->with('error', 'CNPJ não encontrado');
+            return redirect()->to('contratante')->with('error', 'CNPJ não encontrado');
         }
 
         $data['contratante'] = $this->contratante->getDadosCompletos($contratante->id);
