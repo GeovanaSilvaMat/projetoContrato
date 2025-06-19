@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Detalhes do Contratante</title>
+  <title>Detalhes Cadastrais</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="<?= base_url('style.css') ?>">
 
@@ -11,7 +11,7 @@
   <div class="container mt-5 mb-5">
     <div class="card">
       <div class="card-header">
-        <h4>Detalhes do Contratante
+        <h4>Detalhes do Cliente
           <a href="<?= base_url('contratante') ?>" class="btn btn-danger float-end">Voltar</a>
         </h4>
       </div>
@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="card-footer">
-          <button type="submit" class="btn btn-success">Salvar</button>
+          <a href="<?= base_url('ficha/gerar/' . esc($contratante->id)) ?>" class="btn btn-success mt-2">Gerar PDF</a>
         </div>
       </form>
     </div>
