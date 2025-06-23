@@ -65,25 +65,7 @@ class Contratante extends BaseController
         return view('contratoFornecimentoForm', $data);
     }
 
-    public function update()
-    {
-        $id = $this->request->getPost('id');
 
-        $dataForm = [
-            'cnpj' => $this->request->getPost('cnpj'),
-            'razaosocial' => $this->request->getPost('razaosocial'),
-            'logradouro' => $this->request->getPost('logradouro'),
-            'cidade' => $this->request->getPost('cidade'),
-            'estado' => $this->request->getPost('estado'),
-            'email' => $this->request->getPost('email'),
-            'faturamento_id' => $this->request->getPost('faturamento_id'),
-            'representante_id' => $this->request->getPost('representante_id')
-        ];
-
-        $this->contratante->update($id, $dataForm);
-
-        return redirect()->to('contratante')->with('msg', msg('Alterado com sucesso!', 'success'));
-    }
 
     public function search()
     {
