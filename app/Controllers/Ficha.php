@@ -19,7 +19,7 @@ class Ficha extends BaseController
         $pdf = new \FPDF();
         $pdf->AddPage();
         $pdf->SetFont('Arial', 'B', 16);
-        $pdf->Cell(0, 10, utf8_decode('Contrato de Fornecimento'), 0, 1, 'C');
+        $pdf->Cell(0, 10, utf8_decode('Ficha de cadastro'), 0, 1, 'C');
         $pdf->Ln(10);
 
         $pdf->SetFont('Arial', '', 12);
